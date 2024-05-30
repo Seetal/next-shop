@@ -1,0 +1,9 @@
+.header {
+	border-bottom: 1px solid var(--clr-line);
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 3.75rem;
+	}
+}

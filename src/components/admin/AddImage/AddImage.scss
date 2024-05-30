@@ -1,0 +1,10 @@
+.add-image {
+	display: flex;
+	gap: 1rem;
+	&__item {
+		width: 10rem;
+	}
+	img {
+		max-width: 100%;
+	}
+}

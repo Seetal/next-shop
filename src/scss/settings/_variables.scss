@@ -1,0 +1,17 @@
+:root {
+	--clr-white: hsl(0, 0%, 100%);
+	--clr-white-faded: hsla(0, 0%, 100%, 0.4);
+	--clr-pure-black: hsl(0, 0%, 0%);
+	--clr-pure-black-faded: hsla(0, 0%, 0%, 0.3);
+	--clr-black: hsl(0, 0%, 24%);
+	--clr-light-grey: hsl(0, 0%, 93%);
+	--clr-grey: hsl(0, 0%, 88%);
+	--clr-green: hsl(166, 64%, 44%);
+	--clr-green-dark: hsl(166, 64%, 33%);
+	--clr-red: hsl(0, 74%, 58%);
+
+	// UI ELEMENTS
+
+	--clr-line: var(--clr-grey);
+	--clr-btn: var(--clr-green);
+}

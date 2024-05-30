@@ -1,0 +1,38 @@
+.utils {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	&__btn {
+		display: block;
+		width: 3.75rem;
+		height: 3.75rem;
+		border: 0;
+		background-color: var(--clr-white);
+		border-left: 1px solid var(--clr-line);
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-bottom: 0.3rem;
+		align-items: center;
+		text-align: center;
+		font-size: 0.75rem;
+		text-decoration: none;
+		color: var(--clr-black);
+		line-height: 1rem;
+		font-weight: 400;
+	}
+	&__icon {
+		width: 1.25rem;
+		&--search {
+			width: 1.4rem;
+		}
+	}
+	&__svg {
+		width: 100%;
+		height: auto;
+	}
+	&__path {
+		fill: var(--clr-black);
+	}
+}

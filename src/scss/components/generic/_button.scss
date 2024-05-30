@@ -1,0 +1,23 @@
+.btn {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	border: 0;
+	padding: 0.7rem 1.5rem;
+	background-color: var(--clr-btn);
+	color: var(--clr-white);
+	border-radius: 1.45rem;
+	border-bottom: 3px solid var(--clr-pure-black-faded);
+	height: 2.875rem;
+	vertical-align: top;
+
+	&--alt {
+		border: 2px solid var(--clr-btn);
+		color: var(--clr-btn);
+		background-color: var(--clr-white);
+	}
+
+	&--red {
+		--clr-btn: var(--clr-red);
+	}
+}
